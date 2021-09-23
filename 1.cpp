@@ -57,11 +57,9 @@ int main(int argc, char** argv) {
         			str[2][i+1] = current + past;
         			past = 0;
         		}
-        		cout << (int)str[2][i+1];
         	}
         }
     }
-    cout << endl;
     in.close();
 	ofstream out;
 	out.open("2.txt");
